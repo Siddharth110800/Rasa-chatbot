@@ -1,0 +1,22 @@
+version: "3.1"
+
+stories:
+
+- story: query about schemes
+  steps:
+  - intent: scheme_information
+  - action: utter_schemes
+
+
+- story: information about component A
+  steps:
+  - intent: component_a
+  - action: utter_component_a
+  
+- story: eligibility criteria
+  steps:
+  - intent: eligibility
+  - action: utter_eligibility
+  
+
+

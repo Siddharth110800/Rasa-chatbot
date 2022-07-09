@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - greet
+  - thank
+  - goodbye
+  - bot_challenge
+  - scheme_information
+  - component_a
+  - eligibility
+  - nlu_fallback
+
+responses:
+  utter_greet:
+  - text: "Hii! how can I help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+  
+  utter_welcome:
+  - text: "You're welcome!"
+
+  utter_goodbye:
+  - text: "Have a nice day, Bye!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_schemes:
+  - text: "PM-KUSUM Scheme supports three different kind of installations, known as three components of the Scheme as given: Component A -  Setting up of decentralized ground/ stilt mounted grid connected solar or other renewable energy based power plants up to 2 MW capacity. Component B - Installation of stand-alone solar agriculture pumps of capacity up to 7.5 HP. Component C - Solarisation of existing grid connected agriculture pumps of capacity up to 7.5 HP."
+
+  utter_component_a:
+  - text: "Under this component, solar or other renewable energy based power plants of capacity 500 kW to 2 MW can be installed on barren or uncultivable agriculture land mainly. Agriculture land is also permitted under this scheme provided that solar plants are installed in slit fashion (i.e. raised structure for installation of solar panels) and with adequate spacing between panel rows for ensuring that farming activity is not affected."
+  
+  utter_eligibility:
+  - text: "Individual farmers/Group of farmers/Cooperatives/Panchayats/Farmer Producer Organisations (FPO)/Water User associations (WUA). Land on which the project is proposed to be installed should be within 5 km from the nearest electricity sub-station."
+  
+  utter_not_understood:
+  - text: "I'm sorry, I didn't quite understand that. You can visit https://mnre.gov.in/solar/schemes/ or call at toll free number 1800-180-3333 for more information."
+  
+  utter_welcome_user:
+  - text: "Welcome! My name is asnbot. I am powered by Rasa. What can I do for you?"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

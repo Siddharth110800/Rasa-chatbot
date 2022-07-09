@@ -1,0 +1,78 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hii
+    - hello there
+    - Hii there
+    - hey there
+    - hey whatsup
+    - greetings
+    - start
+    
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - okay thanks 
+    - thank you so much
+    - thank u
+    - alright thanks
+    - thank you I appreciate it  
+
+- intent: goodbye
+  examples: |
+    - okay bye
+    - good bye
+    - bye
+    - have a nice day
+    - okay bye then
+    - alright bye
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what are you?
+    
+- intent: scheme_information
+  examples: |
+    - what are the different kind of systems supported under PM KUSUM Scheme?
+    - what are the various types of systems supported by the PM KUSUM Scheme?
+    - what kinds of systems does PM KUSUM Scheme support? 
+    - what are the different types of systems covered by the PM KUSUM Scheme?
+    - what are the pm kusum schemes?
+    - pm kusum scheme information?
+    - Give me details about the PM-KUSUM scheme
+    - Can you tell me about the PM-KUSUM scheme?
+    
+- intent: component_a
+  examples: |
+    - what is Component A of PM KUSUM Scheme?
+    - what is the PM KUSUM Scheme Component A?
+    - what is component A from PM KUSUM Scheme?
+    - component A of PM KUSUM scheme?
+    - details about component A of pm kusum scheme
+    - Component A information
+  
+- intent: eligibility
+  examples: |
+    - who is eligible under Component A of PM KUSUM Scheme?
+    - who is eligible to apply for PM KUSUM component A? 
+    - who is eligible for Component A under the PM KUSUM scheme? 
+    - who can apply for PM KUSUM component A?  
+    - who can apply for pm kusum component a
+    - what is the eligibility criteria to apply for component A of the PM KUSUM program?  
+    
+- intent: nlu_fallback
+
+
+
+
+
